@@ -50,6 +50,11 @@ export default function Formulario({ route, navigation }) {
                     })
                     navigation.goBack();
                 }}
+                     validate={(values) => {
+                    setdndPersonaje(values)
+                    console.log(dndPersonaje)
+                }}
+
             >
                 {
                     ({ handleChange, handleBlur, handleSubmit, setFieldValue, handleReset, errors, values }) => (
