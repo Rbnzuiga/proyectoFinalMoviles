@@ -1,18 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-<<<<<<< HEAD
-import { StyleSheet, Text, View, Image } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-    <Text style={styles.container2}>RECETAS</Text>
-    <StatusBar style="auto" />
-
-
-    </View>
-  );
-=======
 import { Component } from 'react';
 import {StyleSheet} from 'react-native';
 import DndProv from './Contexto/dndContext';
@@ -40,7 +26,7 @@ export default function App(){
   </SafeAreaView>
   )
   
->>>>>>> a768dfc968866f5ae303c32adc2f3941a7d3b505
+
 }
 
 // const styles = StyleSheet.create({
